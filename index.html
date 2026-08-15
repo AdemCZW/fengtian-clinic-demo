@@ -3,26 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>豐田之美牙醫診所｜微笑美學．數位牙科</title>
-<meta name="description" content="豐田之美牙醫診所 — 數位隱形矯正、導航人工植牙、顯微根管、陶瓷貼片微笑設計。以醫學的嚴謹，照顧每一顆牙的溫度。">
+<title>豐田之山診所｜豐田精誠診所 — 健保門診・自費健檢</title>
+<meta name="description" content="豐田之山診所｜豐田精誠診所 — 台中北屯、南屯兩院區。健保門診（肝膽腸胃、胸腔、心臟、神經、家醫）與自費健檢：健檢自由選、無痛腸胃鏡、全面防護專案。不綁套餐、不推銷。">
 <meta name="theme-color" content="#FDFBF7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23FDFBF7'/%3E%3Cpath d='M32 14c-5 0-8 3.5-8 8 0 5 8 12 8 12s8-7 8-12c0-4.5-3-8-8-8zM14 32c0-5 3.5-8 8-8 5 0 12 8 12 8s-7 8-12 8c-4.5 0-8-3-8-8zM50 32c0-5-3.5-8-8-8-5 0-12 8-12 8s7 8 12 8c4.5 0 8-3 8-8zM32 50c-5 0-8-3.5-8-8 0-5 8-12 8-12s8 7 8 12c0 4.5-3 8-8 8z' fill='none' stroke='%23B08A54' stroke-width='2.4'/%3E%3C/svg%3E">
 
 <!-- 社群分享預覽（LINE / Facebook 轉傳時的縮圖與標題） -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:site_name" content="豐田之美牙醫診所">
-<meta property="og:title" content="豐田之美牙醫診所｜微笑美學．數位牙科">
-<meta property="og:description" content="數位隱形矯正、導航人工植牙、顯微根管、陶瓷貼片微笑設計。以醫學的嚴謹，照顧每一顆牙的溫度。">
-<meta property="og:image" content="https://fthealthy3.com/wp-content/uploads/2025/06/241012-%E8%B1%90%E7%94%B0%E4%B9%8B%E5%B1%B1%E5%95%86%E7%A9%BA%E6%8B%8D%E6%94%9D59561-1400x1000.webp">
+<meta property="og:site_name" content="豐田之山診所｜豐田精誠診所">
+<meta property="og:title" content="豐田之山診所｜豐田精誠診所 — 健保門診・自費健檢">
+<meta property="og:description" content="台中北屯、南屯兩院區。健保門診與自費健檢一站完成，健檢自由選、不綁套餐、不推銷。">
+<meta property="og:image" content="https://ademczw.github.io/dental-clinic-demo/assets/hero-clinic-exterior-2560.webp">
 <meta name="twitter:card" content="summary_large_image">
 
-<!-- 本地搜尋結構化資料：Google 地圖／搜尋結果顯示營業時間與電話 -->
+<!-- 本地搜尋結構化資料：Google 搜尋結果顯示診所資訊與電話 -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Dentist",
-  "name": "豐田之美牙醫診所",
-  "description": "數位隱形矯正、導航人工植牙、顯微根管、陶瓷貼片微笑設計。",
+  "@type": "MedicalClinic",
+  "name": "豐田之山診所｜豐田精誠診所",
+  "description": "健保門診（肝膽腸胃、胸腔、心臟、神經、家醫）與自費健檢：健檢自由選、無痛腸胃鏡、全面防護專案。",
   "telephone": "+886-4-2229-3311",
   "address": {
     "@type": "PostalAddress",
@@ -31,13 +32,21 @@
     "addressRegion": "台中市",
     "addressCountry": "TW"
   },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-    "opens": "09:00",
-    "closes": "21:00"
-  }],
-  "medicalSpecialty": "Dentistry"
+  "department": [
+    {
+      "@type": "MedicalClinic",
+      "name": "豐田之山診所",
+      "telephone": "+886-4-2421-1600",
+      "address": {"@type":"PostalAddress","streetAddress":"山西路三段118號","addressLocality":"北屯區","addressRegion":"台中市","addressCountry":"TW"}
+    },
+    {
+      "@type": "MedicalClinic",
+      "name": "豐田精誠診所",
+      "telephone": "+886-4-2473-8187",
+      "address": {"@type":"PostalAddress","streetAddress":"精誠路664號","addressLocality":"南屯區","addressRegion":"台中市","addressCountry":"TW"}
+    }
+  ],
+  "medicalSpecialty": ["Gastroenterologic","Pulmonary","Cardiovascular","Neurologic","PrimaryCare"]
 }
 </script>
 
@@ -52,7 +61,7 @@
 </noscript>
 <style>
 /* ============================================================
-   豐田之美牙醫診所 — Demo
+   豐田之山診所｜豐田精誠診所 — Demo
    單檔 HTML / CSS / JS，淡暖色調，優雅細膩派動效
    ============================================================ */
 
@@ -67,7 +76,7 @@
   --gold-ink:     #86612F;   /* 小字專用的深金：確保 4.5:1 對比 */
   --gold-soft:    #D3B47F;
   --gold-glow:    rgba(200,163,105,.28);
-  --blush:        #E9C9B4;   /* 暖粉，牙科的柔和感 */
+  --blush:        #E9C9B4;   /* 暖粉，柔和點綴 */
   --olive:        #40443A;   /* 沿用母院深橄欖 */
   --ink:          #3C372F;   /* 主文字 */
   --ink-soft:     #7B7264;   /* 次文字 */
@@ -136,6 +145,9 @@ section[id],#top{scroll-margin-top:104px}
   transition:top .3s var(--ease);
 }
 .skip:focus{top:0}
+
+/* 外連圖片載入失敗時：隱藏 alt 文字、以暖色漸層墊底 */
+.hero-bg img,.equip-bg img,.tx .ph img,.post .ph img{color:transparent;background:linear-gradient(148deg,var(--paper-2),var(--sand))}
 
 /* ---------- 通用動效：進場浮現 ---------- */
 [data-reveal]{
@@ -665,9 +677,13 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
   .topbar .wrap{justify-content:center;height:36px;gap:0;flex-wrap:nowrap}
   .topbar span:not(.tb-key),.topbar .dot{display:none}
   .topbar .tb-key{color:var(--ink);letter-spacing:.08em}
+  .brand b{font-size:14px;letter-spacing:.06em;white-space:nowrap}
+  .brand small{font-size:8px;letter-spacing:.24em}
+  .site-header .wrap{gap:14px}
 
-  /* Hero：改為內容決定高度，讓 CTA 進第一屏 */
+  /* Hero：改為內容決定高度，讓 CTA 進第一屏；遮罩改為上下方向確保全寬文字對比 */
   .hero{min-height:auto}
+  .hero-veil{background:linear-gradient(180deg, rgba(253,251,247,.96) 0%, rgba(253,251,247,.9) 55%, rgba(250,242,231,.7) 100%)}
   .hero-inner{padding:46px 0 62px;max-width:none}
   .hero-tag{font-size:10px;letter-spacing:.24em;margin-bottom:16px}
   .hero-tag::before{width:26px}
@@ -756,11 +772,13 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
 <!-- ============ 頂部資訊條 ============ -->
 <div class="topbar">
   <div class="wrap">
-    <span>台中市北屯區山西路三段 118 號</span>
+    <span class="tb-key">健檢專線 04-2229-3311</span>
     <span class="dot"></span>
-    <span class="tb-key">預約專線 04-2229-3311</span>
+    <span>之山門診 04-2421-1600</span>
     <span class="dot"></span>
-    <span>週一至週六 09:00–21:00　週日休診</span>
+    <span>精誠門診 04-2473-8187</span>
+    <span class="dot"></span>
+    <span>諮詢手機 0938-686-885</span>
   </div>
 </div>
 
@@ -768,23 +786,23 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
 <header class="site-header" id="hdr">
   <div class="wrap">
     <a class="brand" href="#top">
-      <img class="mark" src="https://fthealthy3.com/wp-content/uploads/2024/07/%E8%B1%90%E7%94%B0%E4%B9%8B%E5%B1%B1LOGOAI5140-140.webp" alt="豐田之美牙醫診所" width="140" height="140">
+      <img class="mark" src="assets/logo-clover-140.webp" alt="豐田之山診所｜豐田精誠診所" width="140" height="140">
       <span>
-        <b>豐田之美牙醫</b>
-        <small>FENGTIAN DENTAL</small>
+        <b>豐田之山診所｜豐田精誠診所</b>
+        <small>FENGTIAN HEALTHCARE</small>
       </span>
     </a>
     <nav class="main">
       <ul>
-        <li><a href="#services">診療項目</a></li>
-        <li><a href="#treatments">精選療程</a></li>
-        <li><a href="#flow">就診流程</a></li>
+        <li><a href="#services">服務項目</a></li>
+        <li><a href="#treatments">自費健檢</a></li>
+        <li><a href="#flow">健檢流程</a></li>
         <li><a href="#team">醫療團隊</a></li>
-        <li><a href="#equipment">設備環境</a></li>
-        <li><a href="#news">口腔衛教</a></li>
+        <li><a href="#equipment">設備儀器</a></li>
+        <li><a href="#news">最新消息</a></li>
       </ul>
     </nav>
-    <a class="btn btn-gold nav-cta" href="#booking">立即預約
+    <a class="btn btn-gold nav-cta" href="#booking">健檢諮詢
       <svg width="15" height="15" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
     </a>
     <button class="burger" id="burger" aria-label="開啟選單" aria-expanded="false" aria-controls="mnav"><i></i></button>
@@ -793,22 +811,22 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
 
 <div class="mnav" id="mnav">
   <ul>
-    <li><a href="#services">診療項目</a></li>
-    <li><a href="#treatments">精選療程</a></li>
-    <li><a href="#flow">就診流程</a></li>
+    <li><a href="#services">服務項目</a></li>
+    <li><a href="#treatments">自費健檢</a></li>
+    <li><a href="#flow">健檢流程</a></li>
     <li><a href="#team">醫療團隊</a></li>
-    <li><a href="#equipment">設備環境</a></li>
-    <li><a href="#news">口腔衛教</a></li>
-    <li><a href="#booking">立即預約</a></li>
-    <li class="m-tel"><a href="tel:0422293311">撥打預約專線 04-2229-3311</a></li>
+    <li><a href="#equipment">設備儀器</a></li>
+    <li><a href="#news">最新消息</a></li>
+    <li><a href="#booking">健檢諮詢</a></li>
+    <li class="m-tel"><a href="tel:0422293311">撥打健檢專線 04-2229-3311</a></li>
   </ul>
 </div>
 
 <!-- ============ Hero ============ -->
 <section class="hero" id="top">
   <div class="hero-bg">
-    <img src="https://fthealthy3.com/wp-content/uploads/2025/06/241012-%E8%B1%90%E7%94%B0%E4%B9%8B%E5%B1%B1%E5%95%86%E7%A9%BA%E6%8B%8D%E6%94%9D59561-1400x1000.webp"
-         alt="診所診間空間" width="1400" height="1000" fetchpriority="high" decoding="async">
+    <img src="assets/hero-clinic-exterior-2560.webp"
+         alt="豐田之山診所外觀" width="2560" height="1440" fetchpriority="high" decoding="async">
   </div>
   <div class="hero-veil"></div>
   <div class="hero-blobs"><span class="blob b1"></span><span class="blob b2"></span></div>
@@ -816,32 +834,32 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
 
   <div class="wrap">
     <div class="hero-inner">
-      <p class="hero-tag">FENGTIAN AESTHETIC DENTAL</p>
-      <h1 class="split" data-reveal>讓每一次微笑<br>都值得被<span class="accent">溫柔對待</span></h1>
-      <p class="lead" data-reveal style="--i:1">以醫學的嚴謹，照顧每一顆牙的溫度。<br>從數位檢查、療程規劃到長期追蹤，替您把口腔健康看得更遠。</p>
+      <p class="hero-tag">FENGTIAN HEALTHCARE</p>
+      <h1 class="split" data-reveal>把健康看得更遠<br>從一次<span class="accent">完整檢查</span>開始</h1>
+      <p class="lead" data-reveal style="--i:1">健保門診與自費健檢，兩院一站完成。不綑綁套餐、不推銷，每一項檢查都能自由選；檢查後由醫師親自解說報告，把風險提早看見。</p>
       <div class="hero-actions" data-reveal style="--i:2">
-        <a class="btn btn-gold" href="#booking">線上預約看診
+        <a class="btn btn-gold" href="#booking">預約健檢諮詢
           <svg width="15" height="15" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
-        <a class="btn btn-ghost" href="#treatments">了解精選療程</a>
+        <a class="btn btn-ghost" href="#treatments">健檢專案</a>
       </div>
 
       <div class="quick" data-reveal style="--i:3">
         <a href="#services">
-          <svg class="qi" viewBox="0 0 24 24"><path d="M12 3.4c-1.7 0-2.7-.9-4.4-.9-2.3 0-3.7 1.9-3.7 4.5 0 1.9.5 3.6.9 5.5.4 2.1.6 4.4 1 6.3.3 1.4.7 2.6 1.9 2.6s1.5-1.5 1.7-3.2c.2-1.7.4-3.4 1.6-3.4s1.4 1.7 1.6 3.4c.2 1.7.5 3.2 1.7 3.2s1.6-1.2 1.9-2.6c.4-1.9.6-4.2 1-6.3.4-1.9.9-3.6.9-5.5 0-2.6-1.4-4.5-3.7-4.5-1.7 0-2.7.9-4.4.9z"/></svg>
-          <b>一般牙科</b><span>GENERAL</span>
+          <svg class="qi" viewBox="0 0 24 24"><path d="M6 3v6a6 6 0 0012 0V3"/><path d="M12 15v1.5a3.5 3.5 0 007 0V15"/><circle cx="19" cy="13" r="1.6"/><path d="M4 3h4M16 3h4"/></svg>
+          <b>健保門診服務</b><span>OUTPATIENT</span>
         </a>
         <a href="#treatments">
-          <svg class="qi" viewBox="0 0 24 24"><path d="M4 7.4c0 6.2 3.6 10.4 8 10.4s8-4.2 8-10.4"/><circle cx="5.6" cy="11.4" r="1.15"/><circle cx="8.7" cy="15.2" r="1.15"/><circle cx="12" cy="16.6" r="1.15"/><circle cx="15.3" cy="15.2" r="1.15"/><circle cx="18.4" cy="11.4" r="1.15"/></svg>
-          <b>隱形矯正</b><span>ALIGNER</span>
+          <svg class="qi" viewBox="0 0 24 24"><path d="M9 4h6v3H9z"/><path d="M6 6h12v15H6z"/><path d="M9 12l2 2 4-4M9 17h6"/></svg>
+          <b>自費健檢套餐</b><span>CHECK-UP</span>
+        </a>
+        <a href="#booking">
+          <svg class="qi" viewBox="0 0 24 24"><path d="M4 21V7l8-3 8 3v14"/><path d="M9 21v-5h6v5M8 10h2M14 10h2M8 13.5h2M14 13.5h2"/></svg>
+          <b>勞工健檢＆供膳</b><span>LABOR EXAM</span>
         </a>
         <a href="#treatments">
-          <svg class="qi" viewBox="0 0 24 24"><path d="M9 3.4h6M9 5.8h6M9 8.2h6M12 3.4v7.4"/><path d="M7.6 11.4h8.8l-1.5 9.2H9.1z"/></svg>
-          <b>人工植牙</b><span>IMPLANT</span>
-        </a>
-        <a href="#treatments">
-          <svg class="qi" viewBox="0 0 24 24"><path d="M12 4l1.9 4.3 4.6.5-3.5 3.1 1 4.6L12 14.2 7.9 16.5l1-4.6L5.5 8.8l4.6-.5z"/></svg>
-          <b>美學貼片</b><span>VENEER</span>
+          <svg class="qi" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/><path d="M7 7l1.6 1.6M17 7l-1.6 1.6M7 17l1.6-1.6M17 17l-1.6-1.6"/></svg>
+          <b>特色醫療</b><span>SIGNATURE</span>
         </a>
       </div>
     </div>
@@ -854,220 +872,180 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
 <section class="stats">
   <div class="wrap">
     <div class="grid">
-      <div class="stat" data-reveal><div class="num" data-count="18">0</div><div class="lb">深耕在地年資</div></div>
-      <div class="stat" data-reveal style="--i:1"><div class="num" data-count="32000" data-suffix="+">0</div><div class="lb">累計服務人次</div></div>
-      <div class="stat" data-reveal style="--i:2"><div class="num" data-count="98.6" data-dec="1"><small>%</small></div><div class="lb">植牙五年存活率</div></div>
-      <div class="stat" data-reveal style="--i:3"><div class="num" data-count="1200" data-suffix="+">0</div><div class="lb">隱形矯正案例</div></div>
+      <div class="stat" data-reveal><div class="num" data-count="2">0</div><div class="lb">院區（之山・精誠）</div></div>
+      <div class="stat" data-reveal style="--i:1"><div class="num" data-count="6">0</div><div class="lb">專科門診</div></div>
+      <div class="stat" data-reveal style="--i:2"><div class="num" data-count="9" data-suffix="+">0</div><div class="lb">自費健檢專案</div></div>
+      <div class="stat" data-reveal style="--i:3"><div class="num" data-count="4">0</div><div class="lb">大修復點滴療程</div></div>
     </div>
   </div>
 </section>
 
-<!-- ============ 診療項目 ============ -->
+<!-- ============ 服務項目 ============ -->
 <section class="section" id="services">
   <div class="wrap">
     <div class="sec-head" data-reveal>
       <p class="eyebrow">Services</p>
-      <h2 class="sec-title split">診 療 項 目</h2>
+      <h2 class="sec-title split">服 務 項 目</h2>
       <span class="rule"></span>
-      <p class="sec-sub">從日常保養到全口重建，一站式完成。每個療程都先做完整檢查與說明，再決定要不要做。</p>
+      <p class="sec-sub">健保門診六大專科，搭配成人預防保健與國健署癌症篩檢。門診與健檢資料互通，看診不必從頭說起。</p>
     </div>
 
     <div class="svc-grid">
       <article class="svc" data-reveal>
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3.4c-1.7 0-2.7-.9-4.4-.9-2.3 0-3.7 1.9-3.7 4.5 0 1.9.5 3.6.9 5.5.4 2.1.6 4.4 1 6.3.3 1.4.7 2.6 1.9 2.6s1.5-1.5 1.7-3.2c.2-1.7.4-3.4 1.6-3.4s1.4 1.7 1.6 3.4c.2 1.7.5 3.2 1.7 3.2s1.6-1.2 1.9-2.6c.4-1.9.6-4.2 1-6.3.4-1.9.9-3.6.9-5.5 0-2.6-1.4-4.5-3.7-4.5-1.7 0-2.7.9-4.4.9z"/></svg></div>
-        <h3>一般牙科</h3>
-        <p>齲齒填補、口腔檢查、洗牙潔治、敏感性牙齒處理。定期回診把小問題留在小問題階段。</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M9 3.5c0 3-4 4.5-4 9 0 4 3 6.5 6.5 6.5h1c3 0 5.5-2 5.5-5 0-2-1.2-3.5-3.5-3.5H12c-2 0-3-1-3-3V3.5"/></svg></div>
+        <h3>肝膽腸胃科</h3>
+        <p>胃食道逆流、消化性潰瘍、脂肪肝、肝炎追蹤。搭配舒眠胃鏡與大腸鏡，檢查與治療同科完成。</p>
         <span class="more">了解更多 →</span>
       </article>
       <article class="svc" data-reveal style="--i:1">
-        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="3.4"/><path d="M5.5 20c.7-3.4 3.3-5.2 6.5-5.2s5.8 1.8 6.5 5.2"/></svg></div>
-        <h3>兒童牙科</h3>
-        <p>塗氟防護、溝隙封填、乳牙照護與行為引導。用孩子能接受的節奏，建立不怕看牙的第一次經驗。</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 4v8"/><path d="M12 12c-1 4-3 6.5-6 6.5-1.8 0-3-1.2-3-3 0-4 3-8.5 6-8.5M12 12c1 4 3 6.5 6 6.5 1.8 0 3-1.2 3-3 0-4-3-8.5-6-8.5"/></svg></div>
+        <h3>胸腔內科</h3>
+        <p>久咳、氣喘、慢性阻塞性肺病與肺結節追蹤。肺功能檢測與胸腔影像同日完成，由醫師解說。</p>
         <span class="more">了解更多 →</span>
       </article>
       <article class="svc" data-reveal style="--i:2">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3.2 9.4c2.9-2 5.8-3 8.8-3s5.9 1 8.8 3"/><path d="M6.6 10.9c0 4 .6 6.3 2 6.3s1.9-2.3 2-5.6M13.4 11.6c.1 3.3.6 5.6 2 5.6s2-2.3 2-6.3"/></svg></div>
-        <h3>牙周治療</h3>
-        <p>牙結石清創、牙周翻瓣手術、牙周組織再生。牙齦出血不是小事，先把地基顧好。</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.4-7 10-7 10z"/><path d="M6 12h3l1.5-3 2 6 1.5-3H18"/></svg></div>
+        <h3>心臟內科</h3>
+        <p>高血壓、心律不整、胸悶心悸評估。心電圖與心血管風險分析，三高族群的長期追蹤。</p>
         <span class="more">了解更多 →</span>
       </article>
       <article class="svc" data-reveal style="--i:3">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 4.2c-2.2 0-3.5-.8-5.1-.2C5.2 4.6 4.4 6.3 4.8 8.4c.3 1.6.9 3 1.4 4.6.5 1.7.9 3.6 1.3 5.2.3 1.2.7 2.2 1.7 2.2s1.2-1.2 1.4-2.6c.2-1.4.3-2.8 1.4-2.8s1.2 1.4 1.4 2.8c.2 1.4.4 2.6 1.4 2.6s1.4-1 1.7-2.2c.4-1.6.8-3.5 1.3-5.2.5-1.6 1.1-3 1.4-4.6.4-2.1-.4-3.8-2.1-4.4-1.6-.6-2.9.2-5.1.2z"/><path d="M12 8.4v3.2"/></svg></div>
-        <h3>顯微根管</h3>
-        <p>高倍顯微鏡下清創與封填，處理鈣化、複雜根管與根尖病灶，盡可能保住原生牙。</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M9 4a3 3 0 00-3 3 3 3 0 00-2 5 3 3 0 002 5 3 3 0 003 3h1V4zM15 4a3 3 0 013 3 3 3 0 012 5 3 3 0 01-2 5 3 3 0 01-3 3h-1V4z"/></svg></div>
+        <h3>神經內科</h3>
+        <p>頭痛、頭暈、手腳麻木、記憶力下降。健忘是老化還是失智，早一步分辨。</p>
         <span class="more">了解更多 →</span>
       </article>
       <article class="svc" data-reveal style="--i:4">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M9 3.4h6M9 5.8h6M9 8.2h6M12 3.4v7.4"/><path d="M7.6 11.4h8.8l-1.5 9.2H9.1z"/></svg></div>
-        <h3>人工植牙</h3>
-        <p>CBCT 3D 定位、導航植牙、骨脊保存與補骨，重建咬合功能同時兼顧美觀。</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="6" r="2.6"/><circle cx="16.5" cy="7.5" r="2"/><path d="M3 20c.6-4 3-6 6-6s5.4 2 6 6M14.5 20c.3-2.4 1.5-3.8 3.2-3.8s2.9 1.4 3.3 3.8"/></svg></div>
+        <h3>家庭醫學科</h3>
+        <p>感冒、慢性病用藥、疫苗接種與全家健康管理。認識您的家庭醫師，長期照顧全家人。</p>
         <span class="more">了解更多 →</span>
       </article>
       <article class="svc" data-reveal style="--i:5">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 7.4c0 6.2 3.6 10.4 8 10.4s8-4.2 8-10.4"/><circle cx="5.6" cy="11.4" r="1.15"/><circle cx="8.7" cy="15.2" r="1.15"/><circle cx="12" cy="16.6" r="1.15"/><circle cx="15.3" cy="15.2" r="1.15"/><circle cx="18.4" cy="11.4" r="1.15"/></svg></div>
-        <h3>齒顎矯正</h3>
-        <p>傳統矯正與數位隱形矯正雙軌。口內掃描建模，療程前先看到結果模擬再開始。</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>成人預防保健</h3>
+        <p>40 歲以上健保成人健檢，含血液、尿液與基本理學檢查。符合資格者免費，門診即可安排。</p>
         <span class="more">了解更多 →</span>
       </article>
       <article class="svc" data-reveal style="--i:6">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 4l1.9 4.3 4.6.5-3.5 3.1 1 4.6L12 14.2 7.9 16.5l1-4.6L5.5 8.8l4.6-.5z"/></svg></div>
-        <h3>美學貼片</h3>
-        <p>陶瓷貼片、全瓷冠與微笑設計。齒色、齒形、唇線一起規劃，避免只白不自然。</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3c-2 0-3.5 1.5-3.5 3.5 0 3 3.5 6.5 3.5 6.5s3.5-3.5 3.5-6.5C15.5 4.5 14 3 12 3z"/><path d="M9.5 10.5L5 21M14.5 10.5L19 21M8 17h8"/></svg></div>
+        <h3>癌症篩檢（國健署）</h3>
+        <p>大腸癌糞便潛血、口腔黏膜、乳房攝影轉介、子宮頸抹片與肺癌 LDCT 篩檢，依國健署資格辦理。</p>
         <span class="more">了解更多 →</span>
       </article>
       <article class="svc" data-reveal style="--i:7">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M10.4 5.6c-1.4 0-2.3-.8-3.7-.8-2 0-3.1 1.6-3.1 3.8 0 1.6.4 3.1.8 4.7.3 1.8.5 3.7.8 5.3.2 1.2.6 2.2 1.6 2.2s1.2-1.2 1.4-2.7c.2-1.4.4-2.8 1.3-2.8s1.2 1.4 1.4 2.8c.2 1.5.4 2.7 1.4 2.7s1.3-1 1.6-2.2c.3-1.6.5-3.5.8-5.3"/><path d="M18.6 2.6l.9 2.3 2.3.9-2.3.9-.9 2.3-.9-2.3-2.3-.9 2.3-.9z"/></svg></div>
-        <h3>牙齒美白</h3>
-        <p>冷光美白與居家美白托盤，搭配色階紀錄追蹤成效，敏感體質可分次分段進行。</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v3M8 6h8l-1 11a3 3 0 01-6 0z"/><path d="M12 21v-4M9.5 12h5"/></svg></div>
+        <h3>減重規劃・修復點滴</h3>
+        <p>醫師評估的減重計畫，以及四大修復點滴療程。從代謝、體組成到日常習慣，一起把數字調回來。</p>
         <span class="more">了解更多 →</span>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============ 精選療程 ============ -->
+<!-- ============ 自費健檢套餐 ============ -->
 <section class="section warm" id="treatments">
   <div class="wrap">
     <div class="sec-head" data-reveal>
-      <p class="eyebrow">Signature Treatments</p>
-      <h2 class="sec-title split">精 選 療 程</h2>
+      <p class="eyebrow">Health Check-up Packages</p>
+      <h2 class="sec-title split">自 費 健 檢 套 餐</h2>
       <span class="rule"></span>
-      <p class="sec-sub">不綑綁套餐、不推銷。先看完整檢查資料，再一起決定最適合的方案。</p>
+      <p class="sec-sub">本院提供多樣化的健康檢查方案，適合不同年齡層和健康需求。無套餐綁定、不推銷、不壓力。</p>
     </div>
 
     <div class="tx-grid">
       <article class="tx" data-reveal>
-        <div class="ph art">
-          <svg class="rings" viewBox="0 0 300 300"><circle cx="150" cy="150" r="132"/><circle cx="150" cy="150" r="104"/><circle cx="150" cy="150" r="76"/></svg>
-          <span class="tag">DIGITAL</span>
-          <svg class="motif" viewBox="0 0 120 100" stroke-width="1.25">
-            <path d="M10 12c0 45 22 76 50 76s50-31 50-76"/>
-            <path d="M27 16c0 35 14 58 33 58s33-23 33-58"/>
-            <path d="M10 12l17 4M17 44l12-3M31 68l10-6M50 84l5-10M70 84l-5-10M89 68l-10-6M103 44l-12-3M110 12l-17 4"/>
-            <path d="M4 8c0 51 26 86 56 86s56-35 56-86" stroke-dasharray="5 6"/>
-          </svg>
-          <h3>數位隱形矯正</h3>
+        <div class="ph">
+          <span class="tag">FREE CHOICE</span>
+          <img src="assets/news-pancreatic-cancer-1024.webp" alt="健檢自由選" width="800" height="500" loading="lazy" decoding="async">
+          <h3>健檢自由選</h3>
         </div>
         <div class="bd">
-          <p>口內掃描取代傳統印模，療程前先看到 3D 齒列移動模擬；透明牙套可自行取戴，不影響社交與清潔。</p>
-          <ul><li>口掃建模</li><li>療程可視化</li><li>回診間隔彈性</li></ul>
+          <p>無套餐綁定、不推銷、不壓力。每一項檢查都能自由選擇，只做您需要的；我的健檢，自己選。</p>
+          <ul><li>自由組合</li><li>不綁套餐</li><li>不推銷</li></ul>
         </div>
       </article>
 
       <article class="tx" data-reveal style="--i:1">
-        <div class="ph art v2">
-          <svg class="rings" viewBox="0 0 300 300"><circle cx="150" cy="150" r="132"/><circle cx="150" cy="150" r="104"/><circle cx="150" cy="150" r="76"/></svg>
-          <span class="tag">IMPLANT</span>
-          <svg class="motif" viewBox="0 0 120 100" stroke-width="1.25">
-            <path d="M42 22h36M42 32h36M42 42h36M42 52h36M60 22v36"/>
-            <path d="M60 58v10"/>
-            <path d="M38 68h44l-7 24H45z"/>
-            <path d="M22 12v76M98 12v76" stroke-dasharray="4 6"/>
-            <path d="M22 50h16M82 50h16"/>
-          </svg>
-          <h3>導航人工植牙</h3>
+        <div class="ph">
+          <span class="tag">BASIC</span>
+          <img src="assets/pkg-basic-800.webp" alt="基礎專案" width="800" height="800" loading="lazy" decoding="async">
+          <h3>基礎專案</h3>
         </div>
         <div class="bd">
-          <p>術前 CBCT 斷層掃描評估骨質與神經位置，搭配手術導板定位，微創傷口、腫脹感較低、恢復期較短。</p>
-          <ul><li>3D 術前規劃</li><li>手術導板</li><li>骨脊保存</li></ul>
+          <p>健康價值無可估量。以血液生化、尿液與基本生理量測，替自己建立第一份健康基準線。</p>
+          <ul><li>血液生化</li><li>尿液檢查</li><li>心電圖</li></ul>
         </div>
       </article>
 
       <article class="tx" data-reveal style="--i:2">
-        <div class="ph art v3">
-          <svg class="rings" viewBox="0 0 300 300"><circle cx="150" cy="150" r="132"/><circle cx="150" cy="150" r="104"/><circle cx="150" cy="150" r="76"/></svg>
-          <span class="tag">AESTHETIC</span>
-          <svg class="motif" viewBox="0 0 120 100" stroke-width="1.25">
-            <path d="M26 26h20v34c0 8-4 13-10 13s-10-5-10-13z"/>
-            <path d="M50 22h20v40c0 9-4 15-10 15s-10-6-10-15z"/>
-            <path d="M74 26h20v34c0 8-4 13-10 13s-10-5-10-13z"/>
-            <path d="M100 12l3 8 8 3-8 3-3 8-3-8-8-3 8-3zM20 62l2.4 6.4L28.8 71l-6.4 2.4L20 80l-2.4-6.6L11 71l6.6-2.6z"/>
-          </svg>
-          <h3>陶瓷貼片微笑設計</h3>
+        <div class="ph">
+          <span class="tag">LUNG</span>
+          <img src="assets/pkg-free-choice-800x500.webp" alt="肺部疾病防禦專案" width="800" height="800" loading="lazy" decoding="async">
+          <h3>肺部疾病防禦專案</h3>
         </div>
         <div class="bd">
-          <p>從臉型、唇線、齒列比例出發做整體微笑設計，先以試戴模型確認外觀，滿意後才進入正式製作。</p>
-          <ul><li>微笑曲線分析</li><li>試戴確認</li><li>低修磨量</li></ul>
+          <p>全方位肺部檢查。從肺功能到胸腔影像評估，針對吸菸、空污暴露與家族史族群設計。</p>
+          <ul><li>肺功能檢測</li><li>胸腔影像</li><li>胸腔科解說</li></ul>
         </div>
       </article>
 
       <article class="tx" data-reveal style="--i:3">
-        <div class="ph art v4">
-          <svg class="rings" viewBox="0 0 300 300"><circle cx="150" cy="150" r="132"/><circle cx="150" cy="150" r="104"/><circle cx="150" cy="150" r="76"/></svg>
-          <span class="tag">MICROSCOPE</span>
-          <svg class="motif" viewBox="0 0 120 100" stroke-width="1.25">
-            <g transform="translate(24,4) scale(3)" stroke-width=".42">
-              <path d="M12 3.4c-1.7 0-2.7-.9-4.4-.9-2.3 0-3.7 1.9-3.7 4.5 0 1.9.5 3.6.9 5.5.4 2.1.6 4.4 1 6.3.3 1.4.7 2.6 1.9 2.6s1.5-1.5 1.7-3.2c.2-1.7.4-3.4 1.6-3.4s1.4 1.7 1.6 3.4c.2 1.7.5 3.2 1.7 3.2s1.6-1.2 1.9-2.6c.4-1.9.6-4.2 1-6.3.4-1.9.9-3.6.9-5.5 0-2.6-1.4-4.5-3.7-4.5-1.7 0-2.7.9-4.4.9z"/>
-              <path d="M12 8v4M10.4 12.6l-.7 5.6M13.6 12.6l.7 5.6"/>
-            </g>
-            <circle cx="86" cy="30" r="19"/>
-            <path d="M99 44l13 14"/>
-          </svg>
-          <h3>顯微根管治療</h3>
+        <div class="ph">
+          <span class="tag">SEDATED SCOPE</span>
+          <img src="assets/pkg-sedated-endoscopy-800.webp" alt="無痛腸胃鏡專案" width="800" height="800" loading="lazy" decoding="async">
+          <h3>無痛腸胃鏡專案</h3>
         </div>
         <div class="bd">
-          <p>在高倍顯微鏡下處理細微、鈣化或彎曲根管，降低遺漏機率；搭配局部麻醉與分次治療控制不適感。</p>
-          <ul><li>高倍視野</li><li>保留原生牙</li><li>疼痛控制</li></ul>
+          <p>舒心無痛。FUJIFILM 6000 型高階內視鏡搭配舒眠麻醉，胃鏡與大腸鏡一次完成，發現息肉可當場處理。</p>
+          <ul><li>舒眠麻醉</li><li>胃鏡＋大腸鏡</li><li>息肉切除</li></ul>
         </div>
       </article>
 
       <article class="tx" data-reveal style="--i:4">
-        <div class="ph art v5">
-          <svg class="rings" viewBox="0 0 300 300"><circle cx="150" cy="150" r="132"/><circle cx="150" cy="150" r="104"/><circle cx="150" cy="150" r="76"/></svg>
-          <span class="tag">PERIO</span>
-          <svg class="motif" viewBox="0 0 120 100" stroke-width="1.25">
-            <path d="M14 20h18v22c0 7-3 11-9 11s-9-4-9-11zM38 16h18v26c0 8-3 13-9 13s-9-5-9-13zM62 16h18v26c0 8-3 13-9 13s-9-5-9-13zM86 20h18v22c0 7-3 11-9 11s-9-4-9-11z"/>
-            <path d="M8 62c9-7 17-4 26 0s17 7 26 0 17-11 26-7 17 8 26 4"/>
-            <path d="M8 74c9-7 17-4 26 0s17 7 26 0 17-11 26-7 17 8 26 4" stroke-dasharray="4 6"/>
-          </svg>
-          <h3>牙周再生治療</h3>
+        <div class="ph">
+          <span class="tag">ADVANCED</span>
+          <img src="assets/pkg-advanced-gi-800.webp" alt="進階舒眠腸胃專案" width="800" height="800" loading="lazy" decoding="async">
+          <h3>進階舒眠腸胃專案</h3>
         </div>
         <div class="bd">
-          <p>針對中重度牙周病，以清創、翻瓣與再生材料重建齒槽骨支持，並建立三到六個月的維護回診節奏。</p>
-          <ul><li>牙周檢測表</li><li>再生手術</li><li>長期維護</li></ul>
+          <p>健康無價。在無痛腸胃鏡的基礎上，加入腹部超音波與進階血液指標，腸胃與肝膽一併看清楚。</p>
+          <ul><li>舒眠腸胃鏡</li><li>腹部超音波</li><li>癌症指數</li></ul>
         </div>
       </article>
 
       <article class="tx" data-reveal style="--i:5">
-        <div class="ph art v6">
-          <svg class="rings" viewBox="0 0 300 300"><circle cx="150" cy="150" r="132"/><circle cx="150" cy="150" r="104"/><circle cx="150" cy="150" r="76"/></svg>
-          <span class="tag">FULL MOUTH</span>
-          <svg class="motif" viewBox="0 0 120 100" stroke-width="1.25">
-            <path d="M12 8c0 26 21 42 48 42s48-16 48-42"/>
-            <path d="M26 10c0 19 15 30 34 30s34-11 34-30"/>
-            <path d="M12 92c0-26 21-42 48-42s48 16 48 42"/>
-            <path d="M26 90c0-19 15-30 34-30s34 11 34 30"/>
-            <path d="M12 8l14 2M18 30l10-4M32 43l8-7M48 49l4-9M72 49l-4-9M88 43l-8-7M102 30l-10-4M108 8l-14 2"/>
-            <path d="M12 92l14-2M18 70l10 4M32 57l8 7M48 51l4 9M72 51l-4 9M88 57l-8 7M102 70l-10 4M108 92l-14-2"/>
-          </svg>
-          <h3>全口重建規劃</h3>
+        <div class="ph">
+          <span class="tag">PREMIUM</span>
+          <img src="assets/pkg-lung-defense-800.webp" alt="全面頂級防護逆齡專案" width="800" height="800" loading="lazy" decoding="async">
+          <h3>全面頂級防護逆齡專案</h3>
         </div>
         <div class="bd">
-          <p>咬合、美觀、功能三軸同步評估，整合植牙、假牙補綴與牙周治療，依預算與時間排出分期計畫。</p>
-          <ul><li>咬合評估</li><li>分期規劃</li><li>跨科整合</li></ul>
+          <p>開啟逆齡程式。最完整的全身評估，並納入甲基化生理年齡檢測，看見身體真正的年齡。</p>
+          <ul><li>全身評估</li><li>甲基化生理年齡</li><li>專人陪檢</li></ul>
         </div>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============ 就診流程 ============ -->
+<!-- ============ 健檢流程 ============ -->
 <section class="section" id="flow">
   <div class="wrap">
     <div class="sec-head" data-reveal>
-      <p class="eyebrow">Patient Journey</p>
-      <h2 class="sec-title split">就 診 流 程</h2>
+      <p class="eyebrow">Check-up Journey</p>
+      <h2 class="sec-title split">健 檢 流 程</h2>
       <span class="rule"></span>
-      <p class="sec-sub">五個步驟，全程有人陪您走完。每一步都會先說明再進行。</p>
+      <p class="sec-sub">五個步驟，全程有人陪您走完。從預約到報告解說，每一步都先說明再進行。</p>
     </div>
 
     <div class="flow" id="flowbar">
       <div class="flow-fill" id="flowfill"></div>
-      <div class="step" data-reveal><div class="n">01</div><h3>線上預約</h3><p>官網表單或 LINE 傳訊，選擇方便的時段。</p></div>
-      <div class="step" data-reveal style="--i:1"><div class="n">02</div><h3>初診諮詢</h3><p>了解主訴、病史與期待，先聽您說完。</p></div>
-      <div class="step" data-reveal style="--i:2"><div class="n">03</div><h3>數位檢查</h3><p>環口 X 光、CBCT 與口內掃描建立完整資料。</p></div>
-      <div class="step" data-reveal style="--i:3"><div class="n">04</div><h3>計畫討論</h3><p>影像同步說明，列出選項、時程與費用。</p></div>
-      <div class="step" data-reveal style="--i:4"><div class="n">05</div><h3>療程與追蹤</h3><p>治療後定期回診，維持長期穩定。</p></div>
+      <div class="step" data-reveal><div class="n">01</div><h3>預約諮詢</h3><p>健檢專線或 LINE 諮詢，依需求與預算選定項目。</p></div>
+      <div class="step" data-reveal style="--i:1"><div class="n">02</div><h3>檢前準備</h3><p>禁食時間、清腸流程與用藥注意事項，事前一一說明。</p></div>
+      <div class="step" data-reveal style="--i:2"><div class="n">03</div><h3>報到檢查</h3><p>抽血、影像、內視鏡依動線安排，舒眠檢查全程監測。</p></div>
+      <div class="step" data-reveal style="--i:3"><div class="n">04</div><h3>報告解說</h3><p>由醫師親自解說報告，看得懂每一個數字的意義。</p></div>
+      <div class="step" data-reveal style="--i:4"><div class="n">05</div><h3>追蹤與門診</h3><p>異常項目直接銜接健保門診，持續追蹤不中斷。</p></div>
     </div>
   </div>
 </section>
@@ -1079,123 +1057,100 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
       <p class="eyebrow">Our Doctors</p>
       <h2 class="sec-title split">醫 療 團 隊</h2>
       <span class="rule"></span>
-      <p class="sec-sub">以下醫師資料為示意內容，正式上線前會替換為實際團隊與照片。</p>
+      <p class="sec-sub">以下為版面示意，醫師姓名、照片與學經歷將依院方提供資料替換。</p>
     </div>
 
     <div class="team">
       <article class="doc" data-reveal>
-        <div class="por"><span class="ring"></span><span class="mono">陳</span><span class="ph-note">PORTRAIT PLACEHOLDER</span></div>
+        <div class="por"><span class="ring"></span><span class="mono">醫</span><span class="ph-note">PORTRAIT PLACEHOLDER</span></div>
         <div class="bd">
-          <p class="role">院長 ・ 植牙專科</p>
-          <h3>陳 彥 廷</h3>
-          <p class="cred">臺大牙醫學系<br>中華民國口腔植體學會專科醫師<br>德國 ITI 植牙專科訓練</p>
+          <p class="role">院長 ・ 肝膽腸胃科</p>
+          <h3>○ ○ ○ 醫師</h3>
+          <p class="cred">學歷／專科證書<br>舒眠胃鏡、大腸鏡<br>肝膽腸胃疾病診療</p>
         </div>
       </article>
       <article class="doc" data-reveal style="--i:1">
-        <div class="por"><span class="ring"></span><span class="mono">林</span><span class="ph-note">PORTRAIT PLACEHOLDER</span></div>
+        <div class="por"><span class="ring"></span><span class="mono">醫</span><span class="ph-note">PORTRAIT PLACEHOLDER</span></div>
         <div class="bd">
-          <p class="role">主治醫師 ・ 齒顎矯正</p>
-          <h3>林 品 瑄</h3>
-          <p class="cred">陽明交大牙醫學系<br>中華民國齒顎矯正學會會員<br>數位隱形矯正認證醫師</p>
+          <p class="role">主治醫師 ・ 胸腔內科</p>
+          <h3>○ ○ ○ 醫師</h3>
+          <p class="cred">學歷／專科證書<br>肺功能與肺結節追蹤<br>氣喘、慢性阻塞性肺病</p>
         </div>
       </article>
       <article class="doc" data-reveal style="--i:2">
-        <div class="por"><span class="ring"></span><span class="mono">黃</span><span class="ph-note">PORTRAIT PLACEHOLDER</span></div>
+        <div class="por"><span class="ring"></span><span class="mono">醫</span><span class="ph-note">PORTRAIT PLACEHOLDER</span></div>
         <div class="bd">
-          <p class="role">主治醫師 ・ 兒童牙科</p>
-          <h3>黃 振 宇</h3>
-          <p class="cred">高雄醫學大學牙醫學系<br>兒童牙科專科訓練<br>身心障礙者口腔照護特殊訓練</p>
+          <p class="role">主治醫師 ・ 家庭醫學科</p>
+          <h3>○ ○ ○ 醫師</h3>
+          <p class="cred">學歷／專科證書<br>成人預防保健、慢性病管理<br>健檢報告解說</p>
         </div>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============ 設備環境 ============ -->
+<!-- ============ 設備儀器 ============ -->
 <section class="section equip" id="equipment">
   <div class="equip-bg" id="equipbg">
-    <img class="show" src="https://fthealthy3.com/wp-content/uploads/2025/06/241012-%E8%B1%90%E7%94%B0%E4%B9%8B%E5%B1%B1%E5%95%86%E7%A9%BA%E6%8B%8D%E6%94%9D59561-1400x1000.webp" alt="" width="1400" height="1000" loading="lazy" decoding="async">
-    <img src="https://fthealthy3.com/wp-content/uploads/2025/06/FUJIFILM-6000%E5%9E%8B-800-500%E5%A3%93%E7%B8%AE-1400x1000.webp" alt="" width="1400" height="1000" loading="lazy" decoding="async">
-    <img src="https://fthealthy3.com/wp-content/uploads/2025/06/%E5%BF%83%E9%9B%BB%E5%9C%96-800-500%E5%A3%93%E7%B8%AE-1400x1000.webp" alt="" width="1400" height="1000" loading="lazy" decoding="async">
+    <img class="show" src="assets/equip-fujifilm-6000-1400.webp" alt="" width="1400" height="1000" loading="lazy" decoding="async">
+    <img src="assets/equip-ultrasound-1400.webp" alt="" width="1400" height="1000" loading="lazy" decoding="async">
+    <img src="assets/clinic-interior-1400.webp" alt="" width="1400" height="1000" loading="lazy" decoding="async">
   </div>
   <div class="wrap">
     <div class="sec-head left" data-reveal>
-      <p class="eyebrow">Equipment &amp; Space</p>
-      <h2 class="sec-title split">設 備 與 環 境</h2>
+      <p class="eyebrow">Equipment</p>
+      <h2 class="sec-title split">豐田之山｜豐田精誠 設備介紹</h2>
       <span class="rule"></span>
-      <p class="sec-sub">診間、器械與感染控制，是療程品質的前提。我們把看不見的地方也做好。</p>
+      <p class="sec-sub">本院擁有新型醫療設備與專業醫療團隊，致力提供優質的健檢服務，隨時替您的健康做好風險把關。</p>
     </div>
     <ul class="equip-list">
-      <li data-reveal>3D 齒科電腦斷層（CBCT）— 植牙前評估骨質、骨量與神經位置</li>
-      <li data-reveal style="--i:1">數位口內掃描機 — 免印模取像，減少嘔吐反射</li>
-      <li data-reveal style="--i:2">牙科手術顯微鏡 — 根管與精密修復的高倍視野</li>
-      <li data-reveal style="--i:3">數位環口 X 光 — 低輻射劑量，影像即時判讀</li>
-      <li data-reveal style="--i:4">口腔內視鏡 — 治療過程同步顯示，看得懂才安心</li>
-      <li data-reveal style="--i:5">高溫高壓滅菌鍋（B 類）— 器械一人一組、包裝滅菌</li>
-      <li data-reveal style="--i:6">獨立診間與負壓抽吸 — 降低氣霧交叉感染風險</li>
-      <li data-reveal style="--i:7">無障礙動線與親子候診區 — 推車、輪椅都進得來</li>
+      <li data-reveal>FUJIFILM 6000 型高階內視鏡系統 — 高畫質、高解析度及超廣角</li>
+      <li data-reveal style="--i:1">超細徑經鼻內視鏡 — 減少咽喉反射的噁心感</li>
+      <li data-reveal style="--i:2">軟硬可調並具多種光源的大腸鏡 — 讓細微病灶無所遁形</li>
+      <li data-reveal style="--i:3">高解析超音波 — 肝膽、腎臟、甲狀腺與心臟影像評估</li>
+      <li data-reveal style="--i:4">數位 X 光攝影 — 低劑量、影像即時判讀</li>
+      <li data-reveal style="--i:5">全自動免散瞳眼底照相機 — 免點散瞳劑，檢查後即可正常視物</li>
+      <li data-reveal style="--i:6">身體組成分析儀 — 體脂、肌肉量與內臟脂肪，減重規劃的依據</li>
+      <li data-reveal style="--i:7">心電圖與肺功能檢測 — 心肺基礎評估同日完成</li>
     </ul>
   </div>
 </section>
 
-<!-- ============ 口腔衛教 ============ -->
+<!-- ============ 最新消息＆醫學新知 ============ -->
 <section class="section" id="news">
   <div class="wrap">
     <div class="sec-head" data-reveal>
-      <p class="eyebrow">Oral Health Journal</p>
-      <h2 class="sec-title split">口 腔 衛 教</h2>
+      <p class="eyebrow">News &amp; Medical Insights</p>
+      <h2 class="sec-title split">最 新 消 息 ・ 醫 學 新 知</h2>
       <span class="rule"></span>
-      <p class="sec-sub">診間最常被問到的問題，我們寫成文章讓您回家也能查。</p>
+      <p class="sec-sub">診間最常被問到的問題，由醫師寫成文章，回家也能查。</p>
     </div>
 
     <div class="posts">
       <article class="post" data-reveal>
-        <div class="ph art v2">
-          <svg class="rings" viewBox="0 0 300 300"><circle cx="150" cy="150" r="132"/><circle cx="150" cy="150" r="104"/><circle cx="150" cy="150" r="76"/></svg>
-          <svg class="motif" viewBox="0 0 120 100" stroke-width="1.25">
-            <path d="M42 20h36M42 30h36M42 40h36M60 20v30"/>
-            <path d="M38 56h44l-7 26H45z"/>
-            <path d="M18 88h84" stroke-dasharray="4 6"/>
-          </svg>
-        </div>
+        <div class="ph"><img src="assets/news-phlegm-1024.webp" alt="" width="1024" height="682" loading="lazy" decoding="async"></div>
         <div class="bd">
-          <p class="date">2026.07.28 ・ 植牙</p>
-          <h3>植牙後多久才能正常吃東西？</h3>
-          <p>術後前兩週的飲食順序其實比想像中重要，吃錯質地會影響骨整合。我們把時間表整理成一張表。</p>
+          <p class="date">2026.08 ・ 醫學新知</p>
+          <h3>痰怎麼來的？原來每個人每天都有痰！</h3>
+          <p>原來沒有痰，反而可能是問題！醫師解析痰的形成原因與身體的保護機制。</p>
           <span class="rd">閱讀更多 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
         </div>
       </article>
       <article class="post" data-reveal style="--i:1">
-        <div class="ph art v5">
-          <svg class="rings" viewBox="0 0 300 300"><circle cx="150" cy="150" r="132"/><circle cx="150" cy="150" r="104"/><circle cx="150" cy="150" r="76"/></svg>
-          <svg class="motif" viewBox="0 0 120 100" stroke-width="1.25">
-            <path d="M10 14c0 45 22 76 50 76s50-31 50-76"/>
-            <path d="M27 18c0 35 14 58 33 58s33-23 33-58"/>
-            <path d="M4 10c0 51 26 86 56 86s56-35 56-86" stroke-dasharray="5 6"/>
-            <path d="M10 14l17 4M17 46l12-3M31 70l10-6M50 86l5-10M70 86l-5-10M89 70l-10-6M103 46l-12-3M110 14l-17 4"/>
-          </svg>
-        </div>
+        <div class="ph"><img src="assets/pkg-premium-antiaging-800.webp" alt="" width="1024" height="682" loading="lazy" decoding="async"></div>
         <div class="bd">
-          <p class="date">2026.07.14 ・ 矯正</p>
-          <h3>隱形矯正每天要戴滿幾小時才有效？</h3>
-          <p>牙套配戴時數直接決定療程長度。少戴兩小時，牙齒真的會慢慢「走回去」嗎？</p>
+          <p class="date">2026.08 ・ 醫學新知</p>
+          <h3>有沒有有效的胰臟癌預防檢查？</h3>
+          <p>CA-199 指數能不能當篩檢工具？哪些族群該提早檢查、該做哪一種影像？一次說清楚。</p>
           <span class="rd">閱讀更多 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
         </div>
       </article>
       <article class="post" data-reveal style="--i:2">
-        <div class="ph art v3">
-          <svg class="rings" viewBox="0 0 300 300"><circle cx="150" cy="150" r="132"/><circle cx="150" cy="150" r="104"/><circle cx="150" cy="150" r="76"/></svg>
-          <svg class="motif" viewBox="0 0 120 100" stroke-width="1.25">
-            <path d="M28 24h20v34c0 8-4 13-10 13s-10-5-10-13z"/>
-            <path d="M52 20h20v40c0 9-4 15-10 15s-10-6-10-15z"/>
-            <path d="M76 24h20v34c0 8-4 13-10 13s-10-5-10-13z"/>
-            <path d="M100 10l3 8 8 3-8 3-3 8-3-8-8-3 8-3zM18 58l2.4 6.4L26.8 67l-6.4 2.4L18 76l-2.4-6.6L9 67l6.6-2.6z"/>
-          </svg>
-        </div>
+        <div class="ph"><img src="assets/news-memory-dementia-686.webp" alt="" width="686" height="429" loading="lazy" decoding="async"></div>
         <div class="bd">
-          <p class="date">2026.06.30 ・ 美白</p>
-          <h3>牙齒美白會不會傷到琺瑯質？</h3>
-          <p>美白藥劑的濃度、接觸時間與牙齒本身的狀況，決定了敏感程度。做之前該先確認哪些事？</p>
+          <p class="date">2026.06 ・ 醫學新知</p>
+          <h3>健忘是老化還是失智？記憶力下降警訊一次看懂</h3>
+          <p>健忘不一定是失智，但生活開始出錯就值得早期篩檢。豐田醫療集團醫師教您分辨。</p>
           <span class="rd">閱讀更多 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
         </div>
       </article>
@@ -1206,48 +1161,48 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
 <!-- ============ 品牌語句跑馬燈 ============ -->
 <section class="gallery">
   <div class="marquee" id="marquee">
-    <span>先檢查、再說明、後治療</span><i></i>
-    <span>不推銷、不綁套餐</span><i></i>
-    <span>數位影像同步看得懂</span><i></i>
-    <span>器械一人一組、包裝滅菌</span><i></i>
-    <span>療程費用先講清楚</span><i></i>
-    <span>孩子怕看牙，我們慢慢來</span><i></i>
+    <span>健檢自由選・不綁套餐・不推銷</span><i></i>
+    <span>兩院區 一站式門診與健檢</span><i></i>
+    <span>舒眠無痛 胃鏡・大腸鏡</span><i></i>
+    <span>醫師親自解說報告</span><i></i>
+    <span>勞工體檢＆供膳健檢</span><i></i>
+    <span>國健署癌症篩檢</span><i></i>
   </div>
 </section>
 
-<!-- ============ 預約 ============ -->
+<!-- ============ 健檢諮詢與預約 ============ -->
 <section class="section book" id="booking">
   <div class="wrap">
     <div class="book-grid">
       <div>
         <div class="sec-head left" data-reveal>
-          <p class="eyebrow">Make an Appointment</p>
-          <h2 class="sec-title split">線 上 預 約</h2>
+          <p class="eyebrow">Consultation &amp; Booking</p>
+          <h2 class="sec-title split">健 檢 諮 詢 與 預 約</h2>
           <span class="rule"></span>
-          <p class="sec-sub">填寫後將由櫃檯人員於一個工作日內與您聯繫確認時段。</p>
+          <p class="sec-sub">填寫後將由健檢櫃檯於一個工作日內與您聯繫，確認項目與時段。</p>
         </div>
         <ul class="info-list" data-reveal style="--i:1">
           <li>
             <svg viewBox="0 0 24 24"><path d="M12 21s7-5.6 7-11a7 7 0 10-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
-            <span><b>ADDRESS</b>台中市北屯區山西路三段 118 號</span>
+            <span><b>之山院區</b>台中市北屯區山西路三段 118 號　門診 04-2421-1600</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><path d="M12 21s7-5.6 7-11a7 7 0 10-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            <span><b>精誠院區</b>台中市南屯區精誠路 664 號　門診 04-2473-8187</span>
           </li>
           <li>
             <svg viewBox="0 0 24 24"><path d="M4.5 5.5c0 8 6 14 14 14l1.5-3.4-4.2-1.8-2 2a13 13 0 01-6-6l2-2L8 4 4.5 5.5z"/></svg>
-            <span><b>TEL</b>04-2229-3311　／　0938-686-885</span>
+            <span><b>健檢專線</b>04-2229-3311　／　諮詢手機 0938-686-885</span>
           </li>
           <li>
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5.2l3.4 2"/></svg>
-            <span><b>HOURS</b>週一至週六 09:00–21:00（12:30–14:00 午休）<br>週日及國定假日休診</span>
-          </li>
-          <li>
-            <svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
-            <span><b>EMAIL</b>service@fengtian-dental.demo</span>
+            <span><b>諮詢時間</b>健檢諮詢：週一至週六（各院區門診時段請來電或 LINE 確認）</span>
           </li>
         </ul>
       </div>
 
       <form class="card" data-reveal style="--i:1" id="bookform">
-        <h3>預 約 表 單</h3>
+        <h3>健 檢 諮 詢 表 單</h3>
         <p>＊此為 demo 表單，送出後僅在畫面顯示結果，不會傳送任何資料。</p>
         <div class="row2">
           <div class="field"><input type="text" id="f-name" placeholder=" " required autocomplete="name"><label for="f-name">姓名</label><span class="bar"></span></div>
@@ -1255,22 +1210,30 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
         </div>
         <div class="row2">
           <div class="field">
+            <select id="f-site" required>
+              <option value="" selected disabled></option>
+              <option>之山院區（北屯）</option>
+              <option>精誠院區（南屯）</option>
+              <option>皆可</option>
+            </select>
+            <label for="f-site">希望院區</label><span class="bar"></span>
+          </div>
+          <div class="field">
             <select id="f-item" required>
               <option value="" selected disabled></option>
-              <option>一般牙科／洗牙</option>
-              <option>兒童牙科</option>
-              <option>牙周治療</option>
-              <option>顯微根管</option>
-              <option>人工植牙</option>
-              <option>齒顎矯正</option>
-              <option>美學貼片／美白</option>
+              <option>健檢自由選</option>
+              <option>健檢套餐諮詢</option>
+              <option>舒眠胃鏡／大腸鏡</option>
+              <option>勞工體檢／供膳健檢</option>
+              <option>健保門診預約</option>
+              <option>減重規劃／修復點滴</option>
             </select>
-            <label for="f-item">預約項目</label><span class="bar"></span>
+            <label for="f-item">諮詢項目</label><span class="bar"></span>
           </div>
-          <div class="field"><input type="date" id="f-date" placeholder=" "><label for="f-date">希望日期</label><span class="bar"></span></div>
         </div>
-        <div class="field"><textarea id="f-msg" placeholder=" "></textarea><label for="f-msg">想先讓醫師知道的狀況</label><span class="bar"></span></div>
-        <button class="btn btn-gold" type="submit" style="width:100%;justify-content:center">送出預約
+        <div class="field"><input type="date" id="f-date" placeholder=" "><label for="f-date">希望日期</label><span class="bar"></span></div>
+        <div class="field"><textarea id="f-msg" placeholder=" "></textarea><label for="f-msg">想先讓我們知道的狀況（病史、想加做的項目）</label><span class="bar"></span></div>
+        <button class="btn btn-gold" type="submit" style="width:100%;justify-content:center">送出諮詢
           <svg width="15" height="15" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </button>
         <p class="form-note" id="formnote">送出即表示同意本院依個資法蒐集、處理您所填寫之聯絡資訊，僅用於預約聯繫。</p>
@@ -1284,45 +1247,47 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
   <div class="wrap">
     <div class="f-top">
       <div class="f-brand">
-        <b>豐田之美牙醫診所</b>
-        <p>台中市北屯區山西路三段 118 號</p>
-        <p>預約專線：04-2229-3311</p>
-        <p>諮詢手機：0938-686-885</p>
-        <p>週一至週六 09:00–21:00｜週日休診</p>
+        <b>豐田之山診所｜豐田精誠診所</b>
+        <p>之山：台中市北屯區山西路三段 118 號｜04-2421-1600</p>
+        <p>精誠：台中市南屯區精誠路 664 號｜04-2473-8187</p>
+        <p>健檢專線：04-2229-3311｜諮詢手機：0938-686-885</p>
         <div class="socials">
           <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h2V5h-2c-1.9 0-3 1.2-3 3v2H9v3h2v6h3v-6h2.2l.5-3H14v-1.6c0-.3.2-.4.6-.4z"/></svg></a>
-          <a href="#" aria-label="LINE"><svg viewBox="0 0 24 24"><path d="M21 10.6C21 6.4 16.9 3 12 3S3 6.4 3 10.6c0 3.8 3.3 6.9 7.7 7.5.3.1.7.2.8.5.1.3 0 .7 0 1l-.1.8c0 .3-.2 1 .9.6 1.1-.5 6-3.5 8.2-6 1.5-1.6 1.5-3 1.5-4.4z"/></svg></a>
+          <a href="https://page.line.me/?accountId=918fknbd" target="_blank" rel="noopener" aria-label="LINE"><svg viewBox="0 0 24 24"><path d="M21 10.6C21 6.4 16.9 3 12 3S3 6.4 3 10.6c0 3.8 3.3 6.9 7.7 7.5.3.1.7.2.8.5.1.3 0 .7 0 1l-.1.8c0 .3-.2 1 .9.6 1.1-.5 6-3.5 8.2-6 1.5-1.6 1.5-3 1.5-4.4z"/></svg></a>
           <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4.5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r=".9" fill="currentColor"/></svg></a>
         </div>
       </div>
       <div>
-        <h2>診療項目</h2>
+        <h2>服務項目</h2>
         <ul>
-          <li><a href="#services">一般牙科</a></li>
-          <li><a href="#services">兒童牙科</a></li>
-          <li><a href="#services">牙周治療</a></li>
-          <li><a href="#services">顯微根管</a></li>
-          <li><a href="#services">人工植牙</a></li>
+          <li><a href="#services">健保門診服務</a></li>
+          <li><a href="#services">肝膽腸胃科</a></li>
+          <li><a href="#services">胸腔內科</a></li>
+          <li><a href="#services">心臟內科・神經內科</a></li>
+          <li><a href="#services">家庭醫學科</a></li>
+          <li><a href="#services">減重規劃・四大修復點滴</a></li>
         </ul>
       </div>
       <div>
-        <h2>精選療程</h2>
+        <h2>自費健檢</h2>
         <ul>
-          <li><a href="#treatments">數位隱形矯正</a></li>
-          <li><a href="#treatments">導航人工植牙</a></li>
-          <li><a href="#treatments">陶瓷貼片微笑設計</a></li>
-          <li><a href="#treatments">牙周再生治療</a></li>
-          <li><a href="#treatments">全口重建規劃</a></li>
+          <li><a href="#treatments">健檢自由選</a></li>
+          <li><a href="#treatments">基礎專案</a></li>
+          <li><a href="#treatments">無痛腸胃鏡專案</a></li>
+          <li><a href="#treatments">全面防護專案</a></li>
+          <li><a href="#booking">勞工體檢及供膳健檢</a></li>
+          <li><a href="#booking">健康管理憑證</a></li>
         </ul>
       </div>
       <div>
         <h2>關於我們</h2>
         <ul>
           <li><a href="#team">醫療團隊</a></li>
-          <li><a href="#equipment">設備與環境</a></li>
-          <li><a href="#flow">就診流程</a></li>
-          <li><a href="#news">口腔衛教</a></li>
-          <li><a href="#booking">線上預約</a></li>
+          <li><a href="#equipment">設備儀器</a></li>
+          <li><a href="#flow">健檢流程</a></li>
+          <li><a href="#news">最新消息・醫學新知</a></li>
+          <li><a href="#news">健檢報告解讀＆檢查準備</a></li>
+          <li><a href="#booking">健檢諮詢</a></li>
         </ul>
       </div>
     </div>
@@ -1335,13 +1300,13 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
       <a href="#">萊賦美學診所</a>
     </div>
   </div>
-  <div class="copy">版權所有 © 豐田之美牙醫診所　Demo Design 2026　｜　本頁為設計提案樣稿，內容與圖片為暫用素材</div>
+  <div class="copy">版權所有 © 豐田之山診所｜豐田精誠診所　Demo Design 2026　｜　本頁為設計提案樣稿，內容以院方最終提供為準</div>
 </footer>
 
 <!-- ============ 浮動 CTA ============ -->
 <div class="floats">
-  <a class="float tel" href="tel:0422293311">預約<br>專線</a>
-  <a class="float line" href="#booking">LINE<br>諮詢</a>
+  <a class="float tel" href="tel:0422293311">健檢<br>專線</a>
+  <a class="float line" href="https://page.line.me/?accountId=918fknbd" target="_blank" rel="noopener">LINE<br>諮詢</a>
 </div>
 <button class="to-top" id="totop" aria-label="回到頂端">
   <svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
@@ -1366,6 +1331,11 @@ footer.site a:hover{color:var(--gold-soft);padding-left:5px}
     document.documentElement.style.scrollBehavior = 'auto';
     document.querySelectorAll('.step').forEach(s => s.classList.add('on'));
     const ff = document.getElementById('flowfill'); if (ff) ff.style.width = '82%';
+    document.querySelectorAll('[data-count]').forEach(el => {
+      const small = el.querySelector('small');
+      el.textContent = el.dataset.count + (el.dataset.suffix || '');
+      if (small) el.appendChild(small);
+    });
     const y = parseInt(q.get('y') || '0', 10);
     if (y) document.body.style.marginTop = (-y) + 'px';   // 用位移取代捲動，headless 才截得到
   }
