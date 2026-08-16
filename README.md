@@ -2,7 +2,7 @@
 
 單一 HTML 檔的首頁設計提案（暖色調、細膩捲動動效、RWD）。
 
-- 線上預覽：https://ademczw.github.io/dental-clinic-demo/
+- 線上預覽：https://ademczw.github.io/fengtian-clinic-demo/
 - 本機預覽：直接用瀏覽器開啟 `index.html`，或 `npx http-server . -p 4321`
 - 靜態截圖模式：在網址後加 `?snap=1&y=2400`（關閉動效、跳到指定捲動位置）
 
